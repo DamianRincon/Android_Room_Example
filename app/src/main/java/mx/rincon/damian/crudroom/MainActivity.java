@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private ContactAdapter adapter;
     private ContactViewModel contactViewModel;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
