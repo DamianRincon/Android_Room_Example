@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorAccent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:text="Damián Rincón Cañaveral" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/name"
+            android:layout_centerVertical="true"
+            android:textSize="17sp"
+            android:text="damianrincon@gmail.com" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/name"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="22dp"
+            android:textSize="17sp"
+            android:text="9611733525" />
+    </RelativeLayout>
+</android.support.design.card.MaterialCardView>
